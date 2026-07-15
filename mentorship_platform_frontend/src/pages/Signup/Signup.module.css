@@ -1,0 +1,131 @@
+.page {
+  min-height: 100vh;
+  padding: 2rem;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(3, 4, 94, 0.08),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(3, 4, 94, 0.05),
+      transparent 35%
+    ),
+    #f8fcff;
+}
+
+.backBtn {
+  color: #03045e !important;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.step {
+  color: #03045e;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.heading {
+  color: #03045e !important;
+  margin-top: 0.5rem !important;
+}
+
+.subHeading {
+  color: #666;
+}
+
+.formCard {
+  max-width: 650px;
+  margin: auto;
+
+  border-radius: 24px !important;
+  border: none !important;
+
+  background: rgba(255,255,255,0.9) !important;
+
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 15px 40px rgba(
+      3,
+      4,
+      94,
+      0.08
+    ) !important;
+}
+
+.roleBadge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: fit-content;
+
+  padding: 10px 18px;
+
+  border-radius: 999px;
+
+  background: rgba(
+    3,
+    4,
+    94,
+    0.08
+  );
+
+  color: #03045e;
+
+  font-weight: 600;
+
+  margin-bottom: 2rem;
+}
+
+.roleBadge svg {
+  font-size: 18px;
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+.form :global(.ant-form-item-label > label) {
+  font-weight: 600;
+  color: #03045e;
+}
+
+.form :global(.ant-input),
+.form :global(.ant-input-password),
+.form :global(.ant-select-selector) {
+  border-radius: 12px !important;
+  min-height: 48px;
+}
+
+.submitBtn {
+  margin-top: 1rem;
+
+  height: 52px !important;
+
+  border-radius: 12px !important;
+
+  background: #03045e !important;
+  border: none !important;
+
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .heading {
+    font-size: 2rem !important;
+  }
+}

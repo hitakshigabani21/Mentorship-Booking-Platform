@@ -1,0 +1,275 @@
+.container {
+padding: 2rem 2.5rem;
+background: #f8fafc;
+min-height: 100vh;
+font-family: "Times New Roman", Times, serif;
+}
+
+
+/* BOOKING */
+
+.bookingSection {
+display: grid;
+grid-template-columns: 1.5fr 1fr;
+grid-template-areas: "slots calendar";
+gap: 3rem;
+}
+
+.slotsCard {
+grid-area: slots;
+}
+
+.calendarCard {
+grid-area: calendar;
+width: 80%;
+height: 400px;
+padding: 5px;
+}
+
+.slotsCard,
+.calendarCard {
+border-radius: 18px;
+}
+
+.slotsCard h2 {
+color: #03045e;
+margin-bottom: 1rem;
+font-family: "Times New Roman", Times, serif;
+font-size: 2rem;
+}
+
+/* SLOTS */
+
+.slotHeader {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1rem;
+}
+
+.addSlotBtn {
+background: #03045e !important;
+color: white !important;
+border: none !important;
+}
+
+.slotList {
+display: flex;
+flex-direction: column;
+gap: 14px;
+}
+
+.slotRow {
+position: relative;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+border: 1px solid #e5e7eb;
+border-radius: 12px;
+
+padding: 1rem 1.2rem;
+transition: 0.3s;
+}
+
+.slotRow:hover {
+border-color: #03045e;
+}
+
+.slotActions {
+position: absolute;
+top: 10px;
+right: 10px;
+
+display: flex;
+gap: 4px;
+align-items: center;
+}
+
+.iconBtn {
+color: #64748b !important;
+}
+
+.iconBtn:hover {
+color: #03045e !important;
+}
+
+.slotInfo {
+display: flex;
+flex-direction: column;
+gap: 8px;
+padding-top: 10px;
+}
+
+.slotDate {
+margin: 0;
+color: #03045e;
+font-size: 1.25rem;
+font-weight: 600;
+}
+
+.slotTime {
+margin: 0;
+color: #64748b;
+font-size: 1.05rem;
+}
+
+.slotStatus {
+width: fit-content;
+font-size: 14px;
+}
+
+.slotBtn {
+background: #03045e !important;
+color: white !important;
+border: none !important;
+}
+
+.slotBtn:hover {
+background: #caf0f8 !important;
+color: black !important;
+}
+
+.noSlots {
+text-align: center;
+padding: 2rem;
+border: 1px dashed #d1d5db;
+border-radius: 12px;
+color: #64748b;
+font-size: 1rem;
+}
+
+
+
+.cancelBtn {
+  background: transparent !important;
+  border: 1px solid #ef4444 !important;
+  color: #ef4444 !important;
+
+  height: 38px;
+  font-weight: 600;
+  border-radius: 8px;
+
+  transition: all 0.3s ease;
+}
+
+.cancelBtn:hover {
+  background: #ef4444 !important;
+  color: white !important;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 992px) {
+.heroContent {
+flex-direction: column;
+}
+
+.bookingSection {
+display: flex;
+flex-direction: column;
+}
+
+.calendarCard {
+order: 1;
+width: fit-content;
+align-self: center;
+}
+
+.slotsCard {
+order: 2;
+width: 100%;
+}
+
+.infoRow {
+width: 100%;
+}
+
+.slotHeader {
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+}
+
+@media (max-width: 768px) {
+.container {
+padding: 1.5rem;
+}
+
+.detailsSection h1 {
+font-size: 2rem;
+}
+
+.bio {
+font-size: 1rem;
+line-height: 1.7;
+}
+
+.infoRow {
+flex-direction: column;
+align-items: flex-start;
+width: 100%;
+}
+
+.infoRow span {
+width: fit-content;
+max-width: 100%;
+font-size: 0.9rem;
+}
+
+.slotRow {
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+}
+
+.slotBtn {
+width: 100%;
+}
+
+.slotActions {
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+.iconBtn {
+width: 32px;
+height: 32px;
+}
+}
+
+@media (max-width: 576px) {
+.container {
+padding: 1rem;
+}
+
+.detailsSection h1 {
+font-size: 1.8rem;
+}
+
+.imageSection img {
+height: 240px;
+}
+
+.expertiseTag {
+font-size: 0.9rem;
+}
+
+.infoRow span {
+font-size: 0.85rem;
+padding: 6px 12px;
+}
+
+.actionButtons {
+width: 100%;
+flex-direction: column;
+}
+
+.bookNowBtn,
+.editBtn {
+width: 100%;
+}
+}

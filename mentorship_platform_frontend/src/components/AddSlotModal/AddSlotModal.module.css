@@ -1,0 +1,75 @@
+/* Modal Header */
+.modalTitle {
+  color: #03045E;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* Form Labels */
+.formLabel {
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Inputs */
+.input {
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid #ADBBDA;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+.input:hover,
+.input:focus {
+  border-color: #03045E !important;
+  box-shadow: 0 0 0 3px rgba(113, 145, 230, 0.15);
+}
+
+/* Modal Body */
+.modalContent {
+  padding-top: 8px;
+}
+
+/* Add Slot Button */
+.addBtn {
+  background: #03045E !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+}
+
+.addBtn:hover {
+  background: #caf0f8 !important;
+  color: black !important;
+}
+
+/* Cancel Button */
+.cancelBtn {
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+  border: 1px solid #03045E !important;
+  color: #03045E!important;
+}
+
+.cancelBtn:hover {
+  color: black !important;
+  background: #caf0f8 !important;
+}
+
+.timePicker {
+  width: 100%;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .modalTitle {
+    font-size: 1.25rem;
+  }
+
+  .input {
+    height: 44px;
+  }
+}

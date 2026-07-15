@@ -1,0 +1,46 @@
+.card {
+  border-radius: 24px;
+}
+
+.card :global(.ant-card-body) {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.leftSection {
+  flex-shrink: 0;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.college {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.editBtn {
+  background: #03045e!important;
+  color: white !important;
+  border: none !important;
+  
+}
+
+.editBtn:hover {
+  background: #03045e !important;
+  color: white !important;
+}

@@ -1,0 +1,191 @@
+.page {
+  min-height: 100vh;
+  padding: 2rem;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(3, 4, 94, 0.08),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(3, 4, 94, 0.05),
+      transparent 35%
+    ),
+    #f8fcff;
+}
+
+.backBtn {
+  color: #03045e !important;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.step {
+  color: #03045e;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.heading {
+  color: #03045e !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.subHeading {
+  color: #666;
+  font-size: 1rem;
+}
+
+.roleSection {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.roleCard {
+  position: relative;
+  border-radius: 22px !important;
+  height: 100%;
+  min-height: 320px;
+
+  transition: all 0.3s ease !important;
+
+  border: 2px solid transparent !important;
+
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+}
+
+.roleCard:hover {
+  transform: translateY(-6px);
+}
+
+.selected {
+  border: 2px solid #03045e !important;
+
+  box-shadow:
+    0 15px 35px rgba(
+      3,
+      4,
+      94,
+      0.15
+    ) !important;
+}
+
+.selectionIcon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  font-size: 24px;
+  color: #03045e;
+}
+
+.emptyCircle {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+  border: 2px solid #cfcfcf;
+}
+
+.roleIcon {
+  font-size: 42px;
+  color: #03045e;
+  margin-bottom: 1rem;
+}
+
+.features {
+  margin-top: 1rem;
+  padding-left: 18px;
+}
+
+.features li {
+  margin-bottom: 0.25rem;
+  color: #444;
+}
+
+.description{
+    color: #096292;
+}
+
+.continueBtn {
+  display: block;
+  margin: 2rem auto 1rem ;
+  color: white !important;
+  width: 280px;
+  height: 50px;
+
+  border-radius: 12px !important;
+
+  background: #03045e !important;
+  border: none !important;
+
+  font-weight: 600;
+}
+
+.loginSection {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.benefitsRow {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  flex-wrap: wrap;
+
+  padding-top: 1.5rem;
+
+  border-top: 1px solid rgba(
+    0,
+    0,
+    0,
+    0.08
+  );
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #03045e;
+  font-weight: 500;
+}
+
+.benefit svg {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 1rem;
+  }
+
+  .heading {
+    font-size: 2rem !important;
+  }
+
+  .roleCard {
+    min-height: auto;
+  }
+
+  .continueBtn {
+    width: 100%;
+  }
+
+  .benefitsRow {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+}

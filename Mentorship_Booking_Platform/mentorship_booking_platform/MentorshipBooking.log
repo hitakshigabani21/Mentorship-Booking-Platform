@@ -1,0 +1,71 @@
+2026-06-25 08:52:24,654 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 08:54:12,776 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 08:54:15,776 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 08:54:17,739 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 08:59:23,661 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 08:59:33,418 - ERROR - Attempt to delete expired slot. Slot ID: 8
+2026-06-25 08:59:35,624 - ERROR - Attempt to delete expired slot. Slot ID: 8
+2026-06-25 08:59:36,497 - ERROR - Attempt to delete expired slot. Slot ID: 8
+2026-06-25 09:00:10,930 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:04:58,671 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:16:57,726 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:07,662 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:13,640 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:15,747 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:17,706 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:19,736 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:23,721 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:28,723 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:31,736 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:33,735 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:17:35,735 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:18:36,721 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:18:58,714 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:18:59,723 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:19:04,721 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:19:07,736 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:19:10,724 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:19:14,734 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:19:18,716 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:19:26,712 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:19:52,655 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:19:59,367 - INFO - Fetched all mentors with expertise successfully
+2026-06-25 09:20:18,588 - INFO - Student login successful. Student ID: 16
+2026-06-25 09:20:20,186 - INFO - Fetched all mentors with expertise successfully
+2026-06-25 09:20:44,361 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:27:42,717 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:29:51,018 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:38:54,131 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:41:58,031 - INFO - Fetched all mentors with expertise successfully
+2026-06-25 09:42:02,651 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:42:26,640 - INFO - Fetched all mentors with expertise successfully
+2026-06-25 09:42:29,666 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:42:46,694 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:42:50,688 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:42:55,727 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:43:11,133 - INFO - Fetched all mentors with expertise successfully
+2026-06-25 09:43:14,048 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:43:54,650 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:43:57,635 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:44:00,638 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:44:07,633 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:44:35,678 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:44:37,672 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:44:39,669 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:44:45,680 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:45:16,627 - INFO - Retrieved slots successfully for Mentor ID: 2
+2026-06-25 09:50:51,944 - INFO - Fetched all mentors with expertise successfully
+2026-06-25 09:51:08,171 - ERROR - Student not found. Email: aarav@example.com
+2026-06-25 09:51:13,087 - INFO - Mentor login successful. Mentor ID: 1
+2026-06-25 09:51:14,679 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:56:15,664 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:57:12,636 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:58:09,647 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:58:10,644 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:58:48,666 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 09:58:57,655 - INFO - Retrieved slots successfully for Mentor ID: 1
+2026-06-25 10:04:22,175 - INFO - Logger Initialized
+2026-06-25 10:04:22,223 - INFO - Database engine created successfully
+2026-06-25 10:04:22,314 - INFO - Database connected successfully on startup
+2026-06-25 10:04:22,359 - INFO - Database connected successfully on startup
+2026-06-25 10:18:37,189 - INFO - Retrieved slots successfully for Mentor ID: 1

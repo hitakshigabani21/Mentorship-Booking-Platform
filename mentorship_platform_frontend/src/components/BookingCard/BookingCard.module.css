@@ -1,0 +1,24 @@
+.card {
+  border-radius: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.topic {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.actions {
+  margin-top: 20px;
+
+  display: flex;
+  gap: 12px;
+}

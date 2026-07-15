@@ -1,0 +1,40 @@
+.section {
+  padding: 2rem 3rem;
+  background: #f8fafc;
+  text-align: center;
+  scroll-margin-top: 90px;
+}
+
+.heading {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #03045e;
+  margin-bottom: 2rem;
+}
+
+.subheading {
+  max-width: 700px;
+  margin: 1rem auto 3rem;
+  font-size: 1.1rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
