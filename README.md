@@ -10,6 +10,9 @@ A full-stack mentorship booking platform that enables students to connect with m
 ## Features
 
 - Student and Mentor Registration
+
+  ![create account](https://github.com/hitakshigabani21/Mentorship-Booking-Platform/blob/9c77ad27b3ab4c24a0ab16697345bc48f3501af6/Mentorship_Booking_Platform/Screenshots/create%20account.png)
+
   
 - User Authentication
 - Browse and Search Mentors
