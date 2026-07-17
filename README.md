@@ -1,12 +1,14 @@
 # Mentorship Booking Platform
 
 A full-stack mentorship booking platform that enables students to connect with mentors, browse mentor profiles, view available time slots, and book mentorship sessions. The project focuses on building a scalable backend using FastAPI while providing an intuitive user interface with React.
+![Home](https://github.com/hitakshigabani21/Mentorship-Booking-Platform/blob/5f3613eec0e221e4039b96aa21d4a9d60e71b2dd/Mentorship_Booking_Platform/Screenshots/Homepage_hero.png)
 
 ---
 
 ## Features
 
 - Student and Mentor Registration
+  
 - User Authentication
 - Browse and Search Mentors
 - Mentor Profile Management
