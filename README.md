@@ -19,6 +19,9 @@ A full-stack mentorship booking platform that enables students to connect with m
   ![manage slots](https://github.com/hitakshigabani21/Mentorship-Booking-Platform/blob/afbaa041ca2e0c8d28817ef321f6aa769c80d97a/Mentorship_Booking_Platform/Screenshots/Manageslots.png)
   
 - Book and Cancel Mentorship Sessions
+
+![book slots](https://github.com/hitakshigabani21/Mentorship-Booking-Platform/blob/f2d5fef771b2dc923d7ce8e58911c0dae6286b05/Mentorship_Booking_Platform/Screenshots/bookslots.png)
+
 - View Mentor Schedule
 - RESTful API Architecture
 - Structured Logging
