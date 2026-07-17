@@ -13,10 +13,10 @@ A full-stack mentorship booking platform that enables students to connect with m
 
   ![create account](https://github.com/hitakshigabani21/Mentorship-Booking-Platform/blob/9c77ad27b3ab4c24a0ab16697345bc48f3501af6/Mentorship_Booking_Platform/Screenshots/create%20account.png)
 
-  
-- User Authentication
 - Browse and Search Mentors
-- Mentor Profile Management
+
+  ![view mentors](https://github.com/hitakshigabani21/Mentorship-Booking-Platform/blob/5b8c809f3ee2e2dfc8c4b121149e3f8bbe453226/Mentorship_Booking_Platform/Screenshots/mentorlist.png)
+
 - Add, Update and Delete Availability Slots
   
   ![manage slots](https://github.com/hitakshigabani21/Mentorship-Booking-Platform/blob/afbaa041ca2e0c8d28817ef321f6aa769c80d97a/Mentorship_Booking_Platform/Screenshots/Manageslots.png)
@@ -25,10 +25,8 @@ A full-stack mentorship booking platform that enables students to connect with m
 
 ![book slots](https://github.com/hitakshigabani21/Mentorship-Booking-Platform/blob/f2d5fef771b2dc923d7ce8e58911c0dae6286b05/Mentorship_Booking_Platform/Screenshots/bookslots.png)
 
-- View Mentor Schedule
 - RESTful API Architecture
 - Structured Logging
-- Centralized Exception Handling
 - Database Retry Mechanism
 - Input Validation
 - MySQL Database Integration
